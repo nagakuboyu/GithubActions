@@ -13,6 +13,6 @@ jobs:
   job2:
    runs-on: ubuntu-latest
 
-    steps:
+   steps:
      - name: Job2
        run: echo "Job2"
