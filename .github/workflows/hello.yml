@@ -1,14 +1,17 @@
 name: Hello workflow
 
-on: pull_request
+on: push
 
 jobs:
-  Hello:
+  job1:
    runs-on: ubuntu-latest
 
    steps:
-     - name: Step1
-       run: echo "Step1"
+     - name: Job1
+       run: echo "Job1"
 
-     - name: Step2
-       run: echo "Step2"
+  job2:
+   runs-on: ubuntu-latest
+    steps:
+     - name: Job2
+       run: echo "Job2"
