@@ -6,6 +6,6 @@ jobs:
   Hello:
    runs-on: ubuntu-latest
 
-  steps:
+   steps:
      - name: Hello
        run: echo "Hello, GitHub Actions"
