@@ -5,7 +5,7 @@ on: push
 jobs:
   Hello:
    runs-on: ubuntu-latest
-   
-    steps:
-      - name: Hello
-        run: echo "Hello, GitHub Actions"
+
+  steps:
+     - name: Hello
+       run: echo "Hello, GitHub Actions"
